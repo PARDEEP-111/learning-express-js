@@ -1,0 +1,23 @@
+{
+  "name": "learning-express",
+  "version": "1.0.0",
+  "description": "This is a documentery of me learning express js",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PARDEEP-111/learning-express-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PARDEEP-111/learning-express-js/issues"
+  },
+  "homepage": "https://github.com/PARDEEP-111/learning-express-js#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
