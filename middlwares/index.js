@@ -8,7 +8,7 @@ app.use('/', (req,res,next)=>{
 })
 
 app.use('/', (req,res,next)=>{
-    fs.writeFileSync("logs.txt", `${Date.now()} is a ${req.method}`)
+    fs.appendFileSync("logs.txt", `${Date.now()} is a ${req.method}\n`)
     console.log(`${Date.now()} is a ${req.method}`);
     next();
 })
