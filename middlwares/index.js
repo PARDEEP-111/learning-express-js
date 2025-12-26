@@ -14,7 +14,7 @@ app.use('/', (req,res,next)=>{
 })
 
 app.get('/', (req,res)=>{
-    res.send('hello world')
+    res.send('hello world i am ok')
 })
 app.get('/about', (req,res)=>{
     res.send('hello about')

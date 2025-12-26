@@ -5,7 +5,7 @@ const shops = require('./routes/shop')
 
 
 const app = express()
-const port = 3000
+const ports = 3000
 app.use(express.static("public"))
 app.use('/blogs',blogpost)
 app.use('/shop', shops)
